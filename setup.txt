@@ -1,12 +1,17 @@
-Steps to create a new project and sync with GIT. 
+A. Steps to create a new project and sync with GIT. 
 
 1. go to the location where you need to create a project folder and create a ne folder.
 2. open command prompt and go the location of newly created folder.
 3. Type "code ." to open in that newly created folder
 4. open terminal in vs code and run the below command to create a environment in the project.
 			Command = conda create -p venv python==3.9.19 -y
-5. run the command conda activate venv/ to activate the environment.
+5. run the command "conda activate venv/" to activate the environment.
 6. initialize git using "git init" and add branch main using "git branch -M main" and also add origin using "git remote add origin project_url".
 7. create a new file README.md and add it to githud project repository by using "git add filename", then commit using "git commit -m comment".
 8. push the update using "git push -u origin main"
-9. 
+9. check the project status by using "git status" command in terminal.
+
+
+B. setting up the project to convert whole project to application( to install it anywhere required in future )and save it.
+
+1. 
