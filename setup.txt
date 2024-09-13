@@ -14,7 +14,7 @@ A. Steps to create a new project and sync with GIT.
 
 B. setting up the project to convert whole project to application(to install it anywhere required in future) and save it.
 
-1. create a gitignore file in git repository using python as base and run "gut pull" in project folder to add it to project.
+1. create a gitignore file in git repository using python as base and run "git pull" in project folder to add it to project.
 2. create a new file "Requirements.txt" and add all the required libraries ( for project) in it 
    along with "-e " ( this will initiate the "setup.py" automatically).
 2. create a new file setup.py and add the required code and setup details to get the required python libraries for the project from 
