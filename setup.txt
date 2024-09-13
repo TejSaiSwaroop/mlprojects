@@ -12,6 +12,14 @@ A. Steps to create a new project and sync with GIT.
 9. check the project status by using "git status" command in terminal.
 
 
-B. setting up the project to convert whole project to application( to install it anywhere required in future )and save it.
+B. setting up the project to convert whole project to application(to install it anywhere required in future) and save it.
 
-1. 
+1. create a gitignore file in git repository using python as base and run "gut pull" in project folder to add it to project.
+2. create a new file "Requirements.txt" and add all the required libraries ( for project) in it 
+   along with "-e " ( this will initiate the "setup.py" automatically).
+2. create a new file setup.py and add the required code and setup details to get the required python libraries for the project from 
+   "requiremets.txt" and also add code to ignore the "-e ." as it is not a library.
+3. create a new src folder and add a file "__init__.py" - This helps to organise souce code and  differentiate between application logic 
+   and other files like documentation, configuration, tests, etc.
+4. Run "pip install -r .\Requirements.txt" to install all the required libraries for the project that are updated in "Requirements.txt".
+5. This will complete most of the setup required for a project.
